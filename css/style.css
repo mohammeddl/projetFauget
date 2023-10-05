@@ -9,8 +9,8 @@
 }
 :root{
 	--bg-color: #ffffff;
-	--text-color: #171322;
-	--second-color: #5a7184;
+	--text-color: #221d13;
+	--second-color: #847e5a;
 	--main-color: #c9964d;
 	--big-font: 6rem;
 	--h2-font: 3rem;
@@ -211,7 +211,7 @@ header.sticky{
 	margin-bottom: 8px;
 }
 .container-box p{
-	font-size: 15px;
+	font-size: 20px;
 	color: var(--second-color);
 }
 .container-box:hover{
@@ -323,7 +323,7 @@ header.sticky{
 	letter-spacing: 2px;
 }
 .col-content img:hover{
-	filter: brightness(100%) hue-rotate(45deg);
+	filter: brightness(100%) hue-rotate(-20deg);
 	transform: scale(1.04);
 	cursor: pointer;
 }
