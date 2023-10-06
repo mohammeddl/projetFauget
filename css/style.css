@@ -137,7 +137,7 @@ section{
 }
 .home-text p{
 	color: #ffffffff;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 400;
 	line-height: 38px;
 	margin-bottom: 50px;
@@ -177,12 +177,12 @@ header.sticky{
 	grid-gap: 2rem;
 	align-items: center;
 	text-align: center;
-	margin-top: 5rem;
+	
 }
 .container-box{
 	background: var(--bg-color);
 	border: 1px solid #f0eded;
-	padding: 50px 10px;
+	padding: 40px 15px;
 	border-radius: 4px;
 	transition: all 1s ease 0s;
 	cursor: pointer;
@@ -583,4 +583,31 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.support{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+
+}
+.support-info {
+	background-color: rgb(208, 141, 33);
+	border-radius: 10px;
+	color: #fff;
+	padding: 30px;
+	cursor: pointer;
+}
+
+.experience-info {
+	background-color: rgb(208, 141, 33);
+	border-radius: 10px;
+	color: #fff;
+	padding: 30px;
+	cursor: pointer;
+}
+
+.experience-info:hover,.support-info:hover{
+	transform: scale(1.04);
 }
